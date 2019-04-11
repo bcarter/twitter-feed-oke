@@ -24,8 +24,8 @@ push-release:
         registry: https://$DOCKER_REGISTRY
         tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
         working-dir: /pipeline/source
-        ports: 8080
-        cmd: sh target/bin/start
+ #       ports: 8080
+  #      cmd: sh target/bin/start
 
 #internal/docker-push: 
 #        image-name: my-new-image
